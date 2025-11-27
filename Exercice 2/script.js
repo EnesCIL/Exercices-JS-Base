@@ -1,4 +1,4 @@
-//prend tout les élement stocké dans carré
+//prend tout les élement stocké dans l'id carré qui sont des div
 const carres = document.querySelectorAll("#carre div")
 //prend l'element stocké dans affichage
 const affichage = document.querySelector(".affichage")

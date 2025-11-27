@@ -5,5 +5,8 @@ carres.forEach(carre => {
         //ajoute la liste de classe clicked au carre
         carre.classList.add("clicked")
     console.log(carre)
+    //supprime la liste de classe clicked au carre au deuxieme click(marche pas)
+        else{carre.classList.remove("cliked")
+        }
   });
 });

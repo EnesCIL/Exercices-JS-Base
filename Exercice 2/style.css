@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#carre{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.carreUn, .carreDeux, .carreTrois, .carreQuatre ,.affichage{
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+
+}
+
+.carreUn{
+    background-color: red;
+}
+
+.carreDeux{
+    background-color:aqua;
+}
+
+.carreTrois{
+    background-color: green;
+}
+
+.carreQuatre{
+    background-color: blueviolet;
+}
+
+.affichage{
+    display: flex;
+    /* background-color: black; */
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+}

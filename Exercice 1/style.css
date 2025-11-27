@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#wrapper{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.carre {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    font-size: 2em;
+    background-color: rgb(42, 121, 42);
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    cursor: pointer;
+    margin: 10%;
+    font-family: "Times New Roman", serif;
+}

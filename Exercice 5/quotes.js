@@ -1,4 +1,4 @@
-var quotes = {
+let quotes = {
     "Serge Karamazov" : "Barrez vous **** de mimes.",
     "Georges Abitol" : "Le train de tes injures roule sur le rail de mon indifférence.",
     "Hubert Bonisseur de la Bath" : "ça ne prenait pas beaucoup plus de temps.",

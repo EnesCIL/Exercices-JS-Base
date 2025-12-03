@@ -1,6 +1,7 @@
 
 const quoteContainer = document.getElementById("quotes");
 
+let favorites = JSON.parse(localStorage.getItem("favorites")) || [];
 
 Object.entries(quotes).forEach(([auteur, citation]) => {
 
@@ -28,12 +29,11 @@ Object.entries(quotes).forEach(([auteur, citation]) => {
 
         const favs = quoteContainer.querySelectorAll('.fav');
 
-        // favs.forEach(l => l.classList.remove("clicked"));
-
         favs.forEach(fav => {
             fav.addEventListener("click", () => {
                 fav.classList.toggle("clicked");
                 if(fav.classList.contains("clicked")){
+                    favorites.push({auteur, citation});
                     localStorage.setItem("favorite", fav);
                 }
                 else{

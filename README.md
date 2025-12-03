@@ -6,6 +6,7 @@ Chaque exercice est indépendant et possède son propre fichier HTML / CSS / JS.
 ---
 
 🟥 **Exercice 1**
+
 **Objectif**
 
 Créer 4 carrés HTML.
@@ -45,6 +46,7 @@ Au clic, le script récupère les propriétés CSS avec getComputedStyle() et le
 ---
 
 🟦 **Exercice 2**
+
 **Objectif**
 
 Afficher 4 carrés colorés.
@@ -72,6 +74,7 @@ Le script lit sa couleur via getComputedStyle(), applique cette couleur au carr�
 ---
 
 🟩 **Exercice 3**
+
 **Objectif**
 
 Créer 4 carrés verts (200x200 px), numérotés de 1 à 4.
@@ -101,6 +104,7 @@ Le clic déclenche classList.toggle("active"), ce qui active ou désactive les t
 ---
 
 🟪**Exercice 4**
+
 **Objectif**
 
 Changer la couleur du background en cliquant sur des icônes représentant 3 réseaux sociaux.
@@ -142,6 +146,7 @@ Le script vérifie si l’icône possède déjà cette classe :
 ---
 
 🟨 **Exercice 5**
+
 **Objectif**
 
 Créer un système d'affichage de citations avec possibilité d’ajouter des favoris.
